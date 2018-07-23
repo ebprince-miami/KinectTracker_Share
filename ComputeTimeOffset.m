@@ -1,0 +1,2 @@
+function offset = ComputeTimeOffset(dirpath, sourceCam, sourceFrameNo, targetCam, targetFrameNo)
+offset = GetTimestamp(dirpath, sourceCam, sourceFrameNo) - GetTimestamp(dirpath, targetCam, targetFrameNo);
